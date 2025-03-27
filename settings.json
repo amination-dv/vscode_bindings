@@ -9,7 +9,6 @@
     "git.autofetch": true,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "editor.suggest.insertMode": "replace",
-    "terminal.integrated.fontFamily": "MesloLGS NF",
     "editor.linkedEditing": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "window.zoomLevel": 0.5,
@@ -22,9 +21,12 @@
     "editor.lineNumbers": "relative",
     // VIM
     "vim.useSystemClipboard": true,
-    "vim.useCtrlKeys": true,
+    "vim.useCtrlKeys": false,
     "vim.handleKeys": {
         "<C-c>": false,
+        "<C-r>": true,
+        "<C-u>": true,
+        "<C-d>": true,
         // "<C-v>": false
     },
     "vim.leader": "<Space>",
